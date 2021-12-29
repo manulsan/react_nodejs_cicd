@@ -16,8 +16,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run:
-        cd react_nodejs_cicd
+    - run:        
         npm i
         cd frontend
         npm i
